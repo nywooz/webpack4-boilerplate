@@ -1,0 +1,86 @@
+/*
+
+Primary Palette
+
+These are the individual colors that make up the primary color palette.
+Red unites us as a company and acts as a base for everything we design.
+In addition, the neutrals in our color strategy present relief and provide
+bold backdrops for key content.
+
+*/
+
+$crimson: #ed1c24;
+$black: #000000;
+$oxford-blue: #2d383f;
+$solitude: #f2f6f7;
+
+/*
+
+Secondary Palette
+
+These are the individual colors that make up the secondary color palette.
+This palette can be used in combination with the primary palette to add depth,
+versatility and detail, helping to achieve the appropriate tone for a particular audience or line of business.
+
+*/
+$prussian-blue: #001b46;
+$bahama-blue: #1b4478;
+$cobalt: #005dac;
+$pacific-blue: #009ee1;
+$bondi-blue: #00b2b0;
+$teal: #008088;
+$shamrock-green: #00a262;
+$apple: #55ba47;
+$turbo: #f8c70f;
+$carrot-light: #f5a01a;
+$carrot-dark: #f47721;
+$cinnabar: #e45520;
+$dark-purple: #9f1f63;
+$windsor: #492f91;
+$lynch: #687982;
+$casper: #a2b1b8;
+
+// $success: #00a262;
+// $info: #00a262;
+// $warning: #00a262;
+// $danger: #00a262;
+// $light: #00a262;
+// $dark: #00a262;
+
+// $btn-border-radius: 50px;
+
+$theme-colors: (
+  primary: $cobalt,
+  secondary: $lynch,
+  // success: success,
+    // danger: danger,
+    // warning: warning,
+    // info: info,
+    // light: light,
+    // dark: dark
+);
+
+// please use Roboto and Open Sans for
+// header
+// body
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+
+// h,p {
+//   font-family: "Roboto", sans-serif;
+// }
+
+$font-family-sans-serif:
+  // Safari for OS X and iOS (San Francisco)
+    -apple-system,
+  // Chrome < 56 for OS X (San Francisco)
+    BlinkMacSystemFont,
+  // Windows
+    "Segoe UI",
+  // Android
+    "Roboto",
+  // Basic web fallback
+   // default //   "Helvetica Neue", Arial, sans-serif,
+    "Roboto", sans-serif
+  // Emoji fonts
+    "Apple Color Emoji",  "Segoe UI Emoji", "Segoe UI Symbol" !default;
